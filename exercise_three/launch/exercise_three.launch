@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- <group ns="exercise_three_launcher"> -->
+    <node pkg="exercise_three" name="user_info_driver" type="pub.py"/>
+    <node pkg="exercise_three" name="data_processing" type="sub.py"/>
+  <!-- </group> -->
+
+
+</launch>
